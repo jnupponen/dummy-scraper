@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "jnupponen-scraper"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-5k409vo6rxbe"
+s3_prefix = "jnupponen-scraper"
+region = "eu-west-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+parameter_overrides = "AppBucketName=\"jnupponen-scraper\""
